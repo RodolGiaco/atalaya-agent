@@ -1,0 +1,20 @@
+# Compiled class files
+*.class
+target/
+.idea/
+*.iml
+.vscode/
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Local env files
+.env
+.env.local
+
+# Antigravity local state & Node modules (OpenSpec)
+.agents/
+node_modules/
