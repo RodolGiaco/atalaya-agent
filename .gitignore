@@ -16,5 +16,4 @@ Thumbs.db
 .env.local
 
 # Antigravity local state & Node modules (OpenSpec)
-.agents/
 node_modules/

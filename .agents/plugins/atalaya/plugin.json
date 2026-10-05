@@ -1,0 +1,9 @@
+{
+  "name": "atalaya",
+  "version": "1.0.0",
+  "description": "Atalaya SDLC Orchestrator and Deterministic Auditor",
+  "author": "Atalaya Team",
+  "permissions": [
+    "intercept(PreToolUse)"
+  ]
+}
