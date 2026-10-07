@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "atalaya-mcp-server": {
+      "command": "curl",
+      "args": [
+        "-N",
+        "--header", "Authorization: Bearer ${SPRING_MCP_AUTH_TOKEN:-default_dev_token}",
+        "http://localhost:8080/mcp/sse"
+      ],
+      "isNetwork": true
+    }
+  }
+}
